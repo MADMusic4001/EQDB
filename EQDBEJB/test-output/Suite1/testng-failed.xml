@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.madmusic4001.eqdb.beans.ItemServiceBeanTest">
+        <methods>
+          <include name="initContainer"/>
+          <include name="shouldFindAllItems"/>
+        </methods>
+      </class> <!-- com.madmusic4001.eqdb.beans.ItemServiceBeanTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
